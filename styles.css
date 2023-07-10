@@ -73,15 +73,11 @@ details > summary::after {
 footer {
   background-color: #333;
   color: #FFF;
-  padding: 20px;
+  padding: 10px 20px; /* Ajusta el espaciado interno del footer */
   text-align: center;
 }
 
 footer p {
   margin: 5px; /* Ajusta el margen vertical para que sea más ajustado */
   line-height: 1.2; /* Ajusta el espaciado entre líneas */
-}
-
-footer p:last-child {
-  margin-bottom: 0; /* Elimina el margen inferior solo para el último párrafo */
 }
