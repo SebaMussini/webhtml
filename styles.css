@@ -63,9 +63,11 @@ details > summary::after {
   background-color: #333;
 }
 
-
-details > p {
-  margin: 10px 0;
+.details-icon::before {
+  content: "\f078"; /* Código del ícono de FontAwesome */
+  font-family: "Font Awesome\ 5 Brands";
+  font-weight: 900;
+  margin-right: 5px;
 }
 
 footer {
