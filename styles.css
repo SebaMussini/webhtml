@@ -17,9 +17,9 @@ figure img {
   margin: 0 auto;
   border-radius: 50%;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-  object-fit: cover; /* Ajusta la imagen manteniendo su proporción */
-  width: 400px; /* Ancho deseado de la imagen */
-  height: 400px; /* Alto deseado de la imagen */
+  object-fit: cover;
+  width: 400px;
+  height: 400px;
 }
 
 nav a {
@@ -35,15 +35,17 @@ nav a:hover {
 }
 
 nav a i.fa-brands {
-  font-size: 40px; /* Cambiar el tamaño de los íconos */
+  font-size: 40px;
 }
 
-
-details {
-  margin-bottom: 20px;
+h2 {
   border: 1px solid #333; /* Añade el borde */
   border-radius: 5px; /* Añade esquinas redondeadas */
   padding: 10px; /* Añade un espacio interno */
+}
+
+h2 > em {
+  text-decoration: underline;
 }
 
 details > summary {
