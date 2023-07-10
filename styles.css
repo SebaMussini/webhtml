@@ -1,7 +1,7 @@
 /* styles.css */
 
 body {
-  background: linear-gradient(45deg, #E6E6FA, #B0C4DE);
+  background: linear-gradient(45deg, #F4F4F4, #B0C4DE);
   margin: 10px;
 }
 
@@ -41,6 +41,8 @@ nav a i.fa-brands {
 
 details {
   margin-bottom: 20px;
+  border: 1px solid #333; /* Añade el borde */
+  padding: 10px; /* Añade un espacio interno */
 }
 
 details > summary {
