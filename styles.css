@@ -1,3 +1,5 @@
+/* styles.css */
+
 body {
   background-color: #B0C4DE;
   margin: 10px;
@@ -15,15 +17,14 @@ figure img {
   margin: 0 auto;
   border-radius: 50%;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
-  width: 50px; /* Reducir el tamaño de la imagen */
-  height: 50px; /* Reducir el tamaño de la imagen */
+  width: 200px; /* Cambiar el tamaño de la imagen */
 }
 
 nav a {
   color: #125;
   font-size: 18px;
   text-decoration: none;
-  margin: 0 3px;
+  margin: 0 5px;
   transition: color 0.3s ease;
 }
 
@@ -32,12 +33,12 @@ nav a:hover {
 }
 
 nav a i.fa-brands {
-  font-size: 18px; /* Reducir el tamaño de los íconos */
+  font-size: 20px; /* Cambiar el tamaño de los íconos */
 }
 
 details {
-  margin-bottom: 10px; /* Reducir el margen inferior */
-  border-bottom: 4px solid #333; /* Reducir el tamaño de la línea */
+  margin-bottom: 10px;
+  border-bottom: 4px solid #333;
 }
 
 summary {
@@ -46,7 +47,7 @@ summary {
 }
 
 details > p {
-  margin: 5px 0; /* Reducir el tamaño del margen */
+  margin: 5px 0;
 }
 
 footer {
@@ -57,5 +58,5 @@ footer {
 }
 
 footer p {
-  margin: 5px 0; /* Reducir el tamaño del margen */
+  margin: 5px 0;
 }
