@@ -78,5 +78,10 @@ footer {
 }
 
 footer p {
-  margin: 10px 0;
+  margin: 5px; /* Ajusta el margen vertical para que sea más ajustado */
+  line-height: 1.2; /* Ajusta el espaciado entre líneas */
+}
+
+footer p:last-child {
+  margin-bottom: 0; /* Elimina el margen inferior solo para el último párrafo */
 }
