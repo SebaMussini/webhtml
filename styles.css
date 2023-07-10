@@ -18,8 +18,8 @@ figure img {
   border-radius: 50%;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   object-fit: cover; /* Ajusta la imagen manteniendo su proporción */
-  width: 200px; /* Ancho deseado de la imagen */
-  height: 200px; /* Alto deseado de la imagen */
+  width: 400px; /* Ancho deseado de la imagen */
+  height: 400px; /* Alto deseado de la imagen */
 }
 
 nav a {
@@ -43,9 +43,21 @@ details {
   border-bottom: 4px solid #333;
 }
 
-summary {
+details > summary {
   font-weight: bold;
   cursor: pointer;
+  position: relative; /* Agregamos posicionamiento relativo */
+  display: inline-block; /* Mostramos el summary como bloque en línea */
+}
+
+details > summary::after {
+  content: "";
+  position: absolute;
+  bottom: -2px; /* Ajustamos la posición vertical del subrayado */
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: #333;
 }
 
 details > p {
