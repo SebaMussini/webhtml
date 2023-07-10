@@ -39,7 +39,7 @@ nav a i.fa-brands {
 }
 
 .details-container {
-  border: 1px solid #333;
+  border: 2px solid #FF4500; /* Cambia el ancho y el color de las líneas de enmarcado */
   border-radius: 5px;
   padding: 10px;
   margin-bottom: 20px;
@@ -53,7 +53,7 @@ details > summary {
   font-weight: bold;
   cursor: pointer;
   position: relative;
-  margin-bottom: 10px; /* Agrega margen inferior */
+  margin-bottom: 15px;
 }
 
 details > summary:focus {
@@ -66,8 +66,8 @@ details > summary::after {
   bottom: -2px;
   left: 0;
   width: 100%;
-  height: 2px;
-  background-color: #333;
+  height: 3px; /* Ajusta el grosor de las líneas de enmarcado */
+  background-color: #FF4500; /* Cambia el color de las líneas de enmarcado */
 }
 
 .details-icon::before {
