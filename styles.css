@@ -46,6 +46,7 @@ details {
 details > summary {
   font-weight: bold;
   cursor: pointer;
+  display: inline-block; /* Cambiamos a display inline-block */
   position: relative;
 }
 
