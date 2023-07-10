@@ -1,8 +1,10 @@
 /* styles.css */
 
 body {
-  background: linear-gradient(45deg, #F4F4F4, #B0C4DE);
-  margin: 10px;
+  background-image: url("https://p4.wallpaperbetter.com/wallpaper/505/189/268/clear-sky-sky-blue-stars-4k-wallpaper-preview.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 h1 {
@@ -30,8 +32,9 @@ nav a {
   color: #125;
   font-size: 18px;
   text-decoration: none;
-  margin: 0 5px;
+  margin: 0 25px;
   transition: color 0.3s ease;
+  vertical-align: middle;
 }
 
 nav a:hover {
@@ -46,7 +49,7 @@ nav a i.fa-brands {
   border: 4px solid #FFA07A; /* Cambia el ancho y el color de las líneas de enmarcado */
   border-radius: 5px;
   padding: 10px;
-  margin-bottom: 20px;
+  margin-bottom: 100px;
 }
 
 h2 {
@@ -92,3 +95,31 @@ footer p {
   margin: 3px;
   line-height: 1.2;
 }
+
+.skills-container {
+  background-image: url("https://www.mooc.org/hubfs/applications-of-computer-programming.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: #FFC300;
+}
+
+
+.skills-container progress {
+  background-color: #00FF00; /* Color verde para las barras de progreso */
+  margin-top: 5px; /* Espacio entre el texto y la barra de progreso */
+}
+
+.skills-container p {
+  padding-right: 20px; /* Espacio entre el texto y la barra de progreso */
+}
+
+.interests-container {
+  background-image: url("https://takelessons.com/blog/wp-content/uploads/2014/09/beginning-piano-accessories.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: #FFFFFF;
+}
+
+
