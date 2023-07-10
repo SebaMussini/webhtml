@@ -21,7 +21,7 @@ figure img {
 
 nav a {
   color: #125;
-  font-size: 60px;
+  font-size: 24px;
   text-decoration: none;
   margin: 0 20px;
   transition: color 0.3s ease;
@@ -29,6 +29,10 @@ nav a {
 
 nav a:hover {
   color: #FF4500;
+}
+
+nav a i {
+  font-size: 60px; 
 }
 
 details {
