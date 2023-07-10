@@ -42,6 +42,7 @@ nav a i.fa-brands {
 details {
   margin-bottom: 20px;
   border: 1px solid #333; /* Añade el borde */
+  border-radius: 5px; /* Añade esquinas redondeadas */
   padding: 10px; /* Añade un espacio interno */
 }
 
