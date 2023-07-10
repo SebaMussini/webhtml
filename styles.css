@@ -17,9 +17,9 @@ figure img {
   margin: 0 auto;
   border-radius: 50%;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-  object-fit: cover; /* Ajusta la imagen manteniendo su proporción */
-  width: 400px; /* Ancho deseado de la imagen */
-  height: 400px; /* Alto deseado de la imagen */
+  object-fit: cover;
+  width: 400px;
+  height: 400px;
 }
 
 nav a {
@@ -35,22 +35,24 @@ nav a:hover {
 }
 
 nav a i.fa-brands {
-  font-size: 40px; /* Cambiar el tamaño de los íconos */
+  font-size: 40px;
 }
 
-
-details {
+.details-container {
+  border: 1px solid #333;
+  border-radius: 5px;
+  padding: 10px;
   margin-bottom: 20px;
-  border: 1px solid #333; /* Añade el borde */
-  border-radius: 5px; /* Añade esquinas redondeadas */
-  padding: 10px; /* Añade un espacio interno */
+}
+
+h2 {
+  margin-bottom: 10px;
 }
 
 details > summary {
   font-weight: bold;
   cursor: pointer;
   position: relative;
-  margin-bottom: 10px; /* Agrega margen inferior */
 }
 
 details > summary:focus {
@@ -68,20 +70,24 @@ details > summary::after {
 }
 
 .details-icon::before {
-  content: "\f078"; /* Código del ícono de FontAwesome */
+  content: "\f078";
   font-family: "Font Awesome\ 5 Brands";
   font-weight: 900;
   margin-right: 5px;
 }
 
+.details-container p {
+  margin-bottom: 10px; /* Agrega margen inferior */
+}
+
 footer {
   background-color: #333;
   color: #FFF;
-  padding: 5px 10px; /* Ajusta el espaciado interno del footer */
+  padding: 5px 10px;
   text-align: center;
 }
 
 footer p {
-  margin: 3px; /* Ajusta el margen vertical para que sea más ajustado */
-  line-height: 1.2; /* Ajusta el espaciado entre líneas */
+  margin: 3px;
+  line-height: 1.2;
 }
