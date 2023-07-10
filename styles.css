@@ -39,7 +39,7 @@ nav a i.fa-brands {
 }
 
 .details-container {
-  border: 2px solid #FFA07A; /* Cambia el ancho y el color de las líneas de enmarcado */
+  border: 4px solid #FFA07A; /* Cambia el ancho y el color de las líneas de enmarcado */
   border-radius: 5px;
   padding: 10px;
   margin-bottom: 20px;
