@@ -67,7 +67,7 @@ details > summary::after {
   left: 0;
   width: 100%;
   height: 3px; /* Ajusta el grosor de las líneas de enmarcado */
-  background-color: #FF4500; /* Cambia el color de las líneas de enmarcado */
+  background-color: #FF6347; /* Cambia el color de las líneas de enmarcado */
 }
 
 .details-icon::before {
