@@ -53,6 +53,7 @@ details > summary {
   font-weight: bold;
   cursor: pointer;
   position: relative;
+  margin-bottom: 10px; /* Agrega margen inferior */
 }
 
 details > summary:focus {
@@ -74,10 +75,6 @@ details > summary::after {
   font-family: "Font Awesome\ 5 Brands";
   font-weight: 900;
   margin-right: 5px;
-}
-
-.details-container p {
-  margin-bottom: 10px; /* Agrega margen inferior */
 }
 
 footer {
