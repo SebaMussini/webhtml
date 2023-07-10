@@ -4,9 +4,9 @@
 <head>
   <meta charset="UTF-8">
   <title>Seba's Web Site</title>
-  <link rel="stylesheet" href="styles.css"> 
+  <link rel="stylesheet" href="styles.css">
   <script src="https://kit.fontawesome.com/476ea4d074.js" crossorigin="anonymous"></script>
-  <script src="contador.js"></script> 
+  <script src="contador.js"></script>
 </head>
 
 <body>
@@ -29,54 +29,54 @@
 
   <br><br>
 
-  <h2><em>More About Me</em></h2>
+  <div class="details-container">
+    <h2><em>More About Me</em></h2>
 
-  <details>
-    <summary>Bio</summary>
-    <p>Born in Uruguay in November 1987. Grew up in Solymar, where I lived for 20 years.
-      Nowadays, I'm located in Montevideo, nearby Parque Rodó.</p>
-  </details>
+    <details>
+      <summary>Bio</summary>
+      <p>Born in Uruguay in November 1987. Grew up in Solymar, where I lived for 20 years.
+        Nowadays, I'm located in Montevideo, nearby Parque Rodó.</p>
+    </details>
 
-  <br>
+    <details>
+      <summary>Professional Background</summary>
+      <p>MSc (c) in Economics and 2nd year student of Bachelor in Informatics.</p>
 
-  <details>
-    <summary>Professional Background</summary>
-    <p>MSc (c) in Economics and 2nd year student of Bachelor in Informatics.</p>
+      <p>I've worked in the Central Bank of Uruguay for over eight years.
+        From April 2020 to December 2021, I assumed duties as advisor
+        of the National Director of Cash Transfers and Data Analysis at the
+        Social Development Ministry (MIDES), all along the Social Emergency
+        due to the COVID-19 irruption.</p>
 
-    <p>I've worked in the Central Bank of Uruguay for over eight years.
-      From April 2020 to December 2021, I assumed duties as advisor
-      of the National Director of Cash Transfers and Data Analysis at the
-      Social Development Ministry (MIDES), all along the Social Emergency
-      due to the COVID-19 irruption.</p>
+      <p>I also enjoy being an assistant professor in Introduction to Economics
+        and Macro-Economics courses at the University of Montevideo.</p>
+    </details>
+  </div>
 
-    <p>I also enjoy being an assistant professor in Introduction to Economics
-      and Macro-Economics courses at the University of Montevideo.</p>
-  </details>
+  <div class="details-container">
+    <h2><em>My interests</em></h2>
 
-  <br>
+    <ul>
+      <li>Working on becoming a better human being, day by day.</li>
+      <li>Keep studying and learning new stuff.</li>
+      <li><em><b>Get a job in the IT field!</b></em></li>
+      <li>Playing piano &amp; swimming at the club.</li>
+      <li>Enjoying every single day.</li>
+    </ul>
+  </div>
 
-  <h2><em>My interests</em></h2>
+  <div class="details-container">
+    <h2><em>Skills</em></h2>
 
-  <ul>
-    <li>Working on becoming a better human being, day by day.</li>
-    <li>Keep studying and learning new stuff.</li>
-    <li><em><b>Get a job in the IT field!</b></em></li>
-    <li>Playing piano &amp; swimming at the club.</li>
-    <li>Enjoying every single day.</li>
-  </ul>
-
-  <br>
-
-  <h2><em>Skills</em></h2>
-
-  <p>Proactivity, Positive Attitude &amp; Resilience&nbsp;<progress value="0.9"></progress><br />
-    Emotional Intelligence&nbsp;<progress value="80" max="100"></progress><br />
-    Frustration Tolerance&nbsp;<progress value="90" max="100"></progress><br />
-    English Skills&nbsp;<progress value="75" max="100"></progress><br />
-    Programming Skills&nbsp;<progress value="45" max="100"></progress><br />
-    Good Vibes Generator&nbsp;<progress value="95" max="100"></progress><br />
-    Leadership Capacities&nbsp;<progress value="85" max="100"></progress>
-  </p>
+    <p>Proactivity, Positive Attitude &amp; Resilience&nbsp;<progress value="0.9"></progress><br />
+      Emotional Intelligence&nbsp;<progress value="80" max="100"></progress><br />
+      Frustration Tolerance&nbsp;<progress value="90" max="100"></progress><br />
+      English Skills&nbsp;<progress value="75" max="100"></progress><br />
+      Programming Skills&nbsp;<progress value="45" max="100"></progress><br />
+      Good Vibes Generator&nbsp;<progress value="95" max="100"></progress><br />
+      Leadership Capacities&nbsp;<progress value="85" max="100"></progress>
+    </p>
+  </div>
 
   <br><br><br><br>
 
@@ -89,7 +89,7 @@
     <p>Sebastián Mussini.&nbsp;Uruguay, May 2023.</p>
     <p><b>&copy; All Right Reserved</b></p>
 
-    <p>Visits: <span id="visitCount">0</span></p> <!-- Agrega un elemento para mostrar el contador de visitas -->
+    <p>Visits: <span id="visitCount">0</span></p>
   </footer>
 
 </html>
