@@ -18,8 +18,8 @@ figure img {
   border-radius: 50%;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   object-fit: cover; /* Ajusta la imagen manteniendo su proporción */
-  width: 400px; /* Ancho deseado de la imagen */
-  height: 400px; /* Alto deseado de la imagen */
+  width: 200px; /* Ancho deseado de la imagen */
+  height: 200px; /* Alto deseado de la imagen */
 }
 
 nav a {
@@ -35,7 +35,7 @@ nav a:hover {
 }
 
 nav a i.fa-brands {
-  font-size: 20px; /* Cambiar el tamaño de los íconos */
+  font-size: 40px; /* Cambiar el tamaño de los íconos */
 }
 
 details {
