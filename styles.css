@@ -7,15 +7,15 @@ body {
   background-position: center;
 }
 
-h1 {
+h1.serio {
   text-align: center;
-  color: #FF6347; /* Color naranja */
+  color: #333;
   font-size: 48px;
-  font-family: 'Pacifico', cursive;
+  font-family: 'Arial', sans-serif;
   padding: 10px;
-  border: 2px solid #FF6347; /* Borde naranja */
+  border: 2px solid #333;
   border-radius: 10px;
-  background-color: #FFEFD5; /* Fondo crema */
+  background-color: #F5F5F5;
 }
 
 figure img {
