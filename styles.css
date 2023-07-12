@@ -56,6 +56,10 @@ h2 {
   margin-bottom: 10px;
 }
 
+.details-container h2:first-child {
+  margin-bottom: 50px;
+}
+
 details > summary {
   font-weight: bold;
   cursor: pointer;
@@ -97,25 +101,54 @@ footer p {
 }
 
 .skills-container {
-  background-image: url("https://www.mooc.org/hubfs/applications-of-computer-programming.jpg");
+  background-image: url("https://pbs.twimg.com/media/F03KFndXoAQr3Up?format=png&name=900x900");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  color: #FFC300;
+  color: #FFFFFF;
 }
 
+.skills-container h2 {
+  color: #FFFFFF; /* Color del texto en negro */
+  margin-bottom: 50px;
+}
 
-.skills-container progress {
-  background-color: #00FF00; /* Color verde para las barras de progreso */
-  margin-top: 5px; /* Espacio entre el texto y la barra de progreso */
+.skills-container h2 em {
+  font-weight: bold; /* Texto en negrita */
 }
 
 .skills-container p {
-  padding-right: 20px; /* Espacio entre el texto y la barra de progreso */
+  color: #FFFFFF; /* Color del texto en negro */
+}
+
+
+.details-container.skills-container progress {
+  width: 150px; /* Ancho de la barra de progreso */
+  height: 10px; /* Altura de la barra de progreso */
+  border-radius: 5px; /* Bordes redondeados */
+  background-color: #6BB56B; /* Color azul menos intenso para las barras de progreso */
+  margin-top: 10px; /* Espacio entre el texto y la barra de progreso */
+}
+
+.details-container.skills-container progress::-webkit-progress-value {
+  background-color: #6BB56B; /* Color azul para las barras de progreso en navegadores WebKit (Chrome, Safari) */
+}
+
+.details-container.skills-container progress::-moz-progress-bar {
+  background-color:  #6BB56B; /* Color azul para las barras de progreso en navegadores Gecko (Firefox) */
+}
+
+.details-container.skills-container progress::-ms-fill {
+  background-color:  #6BB56B; /* Color azul para las barras de progreso en navegadores que admiten -ms-fill (Microsoft Edge) */
+}
+
+.skills-container p {
+  margin-right: 50px; /* Espacio entre el texto y la barra de progreso */
+  margin-bottom: 10px; /* Separación entre el texto y las barras de progreso */
 }
 
 .interests-container {
-  background-image: url("https://takelessons.com/blog/wp-content/uploads/2014/09/beginning-piano-accessories.jpg");
+  background-image: url("https://pbs.twimg.com/media/F03KKshWAAAaIFE?format=jpg&name=900x900");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
